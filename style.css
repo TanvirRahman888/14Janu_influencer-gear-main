@@ -21,7 +21,13 @@ body {
     font-weight: 700;
     gap: 8px;
 }
+/* Support */
+hr{
+    margin: 0 10%;
+    /* color: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%); */
 
+}
+/* Header Design */
 .header {
     display: flex;
     justify-content: space-between;
@@ -89,8 +95,15 @@ body {
 
 }
 
-.banner .banner-image img {}
+.banner .banner-image img {
 
+}
+/* partner-image */
+.partner-image {
+    margin: 20px 10%;
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
@@ -127,6 +140,13 @@ body {
 
     .banner .banner-text {
         margin-top: 14px;
+    }
+    .partner-image {
+        margin: 20px 10%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: space-around;
     }
 }
 
@@ -176,6 +196,13 @@ body {
 
     .banner .banner-text {
         margin-top: 14px;
+    }
+    .partner-image {
+        margin: 20px 10%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: space-around;
     }
 }
 
